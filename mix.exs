@@ -49,7 +49,7 @@ defmodule Mixpanel.Mixfile do
       {:httpoison, "~> 1.8"},
       {:jason, "~> 1.1"},
       {:credo, "~> 1.5", only: :dev},
-      {:dialyxir, "~> 0.3", only: :dev},
+      {:dialyxir, "~> 1.1", only: :dev},
       {:mock, "~> 0.3.6", only: :test},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:earmark, "~> 1.0", only: :dev},
